@@ -2,9 +2,7 @@ from lib import *
 
 
 def main():
-    mtx = GetMatrix(GetGraph(10, 10, 2), 10)
-    for i in range(len(mtx)):
-        print(mtx[i])
+    Simulate(showData=True)
 
 
 if __name__ == "__main__":
