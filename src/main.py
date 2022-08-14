@@ -2,7 +2,9 @@ from lib import *
 
 
 def main():
-    Simulate(showData=True)
+    for i in range(1):
+        Simulate(showData=True, N=10, num=i)
+    
 
 
 if __name__ == "__main__":
